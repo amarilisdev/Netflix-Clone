@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white overflow-x-hidden;
+  }
+
+  html {
+    @apply scrollbar scrollbar-thumb-red-600 scrollbar-track-black;
+  }
+}
