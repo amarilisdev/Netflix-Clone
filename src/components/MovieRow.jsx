@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import MovieCard from "./MovieCard";
+
 
 function MovieRow ({ title, url }) 
 {
